@@ -1,0 +1,94 @@
+body {
+	background-color: #fff;
+}
+#container {
+    background-color: #00bd00;
+	overflow: hidden;
+}
+#map_body {
+	overflow: hidden;
+}
+
+#header {
+    border: 0;
+    background-color: #00bd00;
+	  text-align: center;
+}
+	#titleline {
+		margin: 0 0 10px 0;
+	}
+	#header h2 {
+		clear: both;
+		margin: 0 auto;
+		width: 559px;
+		height: 41px;
+		text-indent: -9999px;
+		background: url(/assets/header_bingo.png) no-repeat;
+		position: relative;
+		top: 5px;
+	}
+
+#meta-container {
+	text-align: center;
+}
+#chart-container {
+    width: 584px;
+    height: 590px;
+	margin: 0 auto;
+}
+.card {
+	    width: 112px;
+	    height: 112px;
+	    font-size: 12px;
+	    line-height: 16px;
+	    float: left;
+	    margin-left: 4px;
+	    margin-bottom: 4px;
+	    display: table;
+	    background-color: #e6fdff;
+	    background-image: url(/assets/piece_bg.png);
+	    text-transform: uppercase;
+		  cursor: pointer;
+	}
+	.free {
+      background-size: 112px 112px;
+	    background-image: url(/assets/so-what free.png);
+	}
+	.chip {
+	    background-image: url(/assets/piece_chip.png);
+	}
+	.freechip {
+	   background-image: url(/assets/so-what free.png);
+	}
+	.card-text {
+	    margin: auto;
+	    text-align: center;
+	    vertical-align: middle;
+	    display: table-cell;
+	    padding: 4px;
+	}
+
+#bingo-footer {
+	width: 584px;
+	height: 75px;
+    margin: 0 auto 18px auto;
+	padding: 0;
+    position: relative;
+	overflow: hidden;
+	
+}
+#yell-button {
+    position: absolute;
+    left: 140px;
+    bottom: 19px;
+}
+
+div.footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+div.footer > a {
+  color: #BBBBBB;
+}
